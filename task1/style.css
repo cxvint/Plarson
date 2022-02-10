@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.header {
+  height: 50px;
+  background-color: rgb(86, 86, 121);
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.users {
+  width: 200px;
+  background-color: rgb(235, 238, 204);
+  overflow-y: scroll;
+}
+
+.chat {
+  flex: 1;
+  background-color: #dfd;
+  overflow-y: scroll;
+}
+
+.chat-message {
+  margin-bottom: 50px;
+}
+
+.footer {
+  height: 100px;
+  background-color: black;
+}
